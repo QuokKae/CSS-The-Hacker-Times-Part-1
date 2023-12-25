@@ -13,3 +13,32 @@
     --navlink: #777;
     --gentext: black;
 }
+
+body {
+    background: var(--mainbg);
+}
+
+.newspaper-container {
+    width: 700px;
+    background: var(--newsbg);
+    border-radius: 2rem;
+    box-shadow: 2px 2px var(--news-shadow);
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    margin-left: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.2rem;
+}
