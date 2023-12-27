@@ -18,6 +18,10 @@ body {
     background: var(--mainbg);
 }
 
+main > p {
+    text-align: justify;
+}
+
 .newspaper-container {
     width: 700px;
     background: var(--newsbg);
