@@ -16,6 +16,21 @@
 
 body {
     background: var(--mainbg);
+    font-family: var(--bodyfont);
+}
+
+/* headings */
+h2, h4 {
+    font-family: var(--titlefont);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-family: var(--headerfont);
+    color: var(--fronttext)
 }
 
 /* article text */
@@ -36,6 +51,12 @@ main > p {
 /* site header */
 header {
     text-align: center;
+    font-family: var(--headerfont);
+}
+
+/* date */
+.date {
+    text-align: left;
 }
 
 /* navigation */
@@ -51,6 +72,10 @@ nav li {
     list-style: none;
     display: inline-block;
     padding: 0.2rem;
+}
+
+nav li a {
+    text-decoration: none;
 }
 
 /* more articles */
