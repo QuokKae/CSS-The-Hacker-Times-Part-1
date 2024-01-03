@@ -57,6 +57,7 @@ header {
 /* date */
 .date {
     text-align: left;
+    font-family: var(--bodyfont);
 }
 
 /* navigation */
